@@ -563,9 +563,9 @@
 *% -------------------------------------------------------------------------------------
 
 *de.Translation Manufacturer/Zebra: ""
-*de.Translation ModelName/Zebra GX420D, GX420T ZPL Etikettendrucker: ""
-*de.Translation ShortNickName/Zebra GX420 ZPL: ""
-*de.Translation NickName/GX420ZPL, 1.3: ""
+*de.Translation ModelName/Zebra ZPL Etikettendrucker: ""
+*de.Translation ShortNickName/Zebra ZPL: ""
+*de.Translation NickName/Zebra ZPL, 1.4: ""
 *de.Translation PageSize/Media Size: ""
 *de.PageSize w90h18/1.25x0.25: ""
 *de.PageSize w90h162/1.25x2.25: ""
