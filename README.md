@@ -19,7 +19,7 @@ Tested with:
 * GK420t
 * GX420t
 
-The original file is zabra.ppd an can be found at: https://opensource.apple.com/source/cups/cups-136/cups/ppd/zebra.ppd.auto.html
+The original file is zabra.ppd and can be found at: https://opensource.apple.com/source/cups/cups-136/cups/ppd/zebra.ppd.auto.html
 
 The Zeba website contains useful information:
 * [Identify-type-of-media](https://supportcommunity.zebra.com/s/article/Identify-type-of-media?language=en_U)
