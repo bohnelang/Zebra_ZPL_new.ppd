@@ -7,8 +7,9 @@ https://opensource.apple.com/source/cups/cups-450/cups/filter/rastertolabel.c.au
 
 ```
 +------------+       +------------+       +---------------+       +---------------+
-| Text       | -->   | raster2img | --->  | convert2ZPL   | --->  | label printer |
+| Text       | --->  | raster2img | --->  | convert2ZPL   | --->  | label printer |
 +------------+       +------------+       +---------------+       +---------------+
+                                           rastertolabel.c
 ```
 
 The PPD file was improved and I did some bug fixes. Furthermore I did a translation to German language (and remove othe language). 
