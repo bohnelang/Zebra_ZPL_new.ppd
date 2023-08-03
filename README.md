@@ -26,3 +26,9 @@ The Zeba website contains useful information:
 
 Information about ZPL language can be found here: [ZPL-Command-Information-and-Details](https://supportcommunity.zebra.com/s/article/ZPL-Command-Information-and-DetailsV2?language=de) and a [programming book](https://support.zebra.com/cpws/docs/zpl/zpl-zbi2-pm-en.pdf)
 
+
+Useful font sizes:
+```
+lpr -o cpi=13 -o lpi=5 -o fit-to-page -P <printer name>
+lpr -o cpi=16 -o lpi=8 -o fit-to-page -P <printer name>
+```
