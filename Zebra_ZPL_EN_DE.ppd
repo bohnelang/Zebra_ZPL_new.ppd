@@ -17,9 +17,9 @@
 *% By default (characters per inch and line per inch), they look to be set as cpi=12 and lpi=7. 
 *%	lpr -o cpi=12 -o lpi=7 -P <PNAME>
 *% 
-*% Printer Calibration:
-*%  Manual: Press feeder button unil it blinks 2 times (**)
-*%  Auto:   Press feeder button unil it blinks 7 times (*******)
+*% There are two calibration methods to consider if the labels fail to calibrate correctly.
+*%  Manual: The 2 Flash Feed Button sequence will find the label gap and measure the label. Press feeder button unil it blinks 2 times (**)
+*%  Auto:   The 7 Flash Feed Button performs the more profound analysis of the gap or mark and will produce a media sensor profile.    Press feeder button unil it blinks 7 times (*******)
 *%
 
 
