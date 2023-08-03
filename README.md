@@ -32,3 +32,6 @@ Useful font sizes:
 lpr -o cpi=13 -o lpi=5 -o fit-to-page -P <printer name>
 lpr -o cpi=16 -o lpi=8 -o fit-to-page -P <printer name>
 ```
+
+Usevul inks:
+* [ZPL online emulator](http://labelary.com/service.html)
