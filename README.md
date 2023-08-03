@@ -34,4 +34,4 @@ lpr -o cpi=16 -o lpi=8 -o fit-to-page -P <printer name>
 ```
 
 Usevul inks:
-* [ZPL online emulator](http://labelary.com/service.html)
+* [ZPL online emulator](http://labelary.com/viewer.html)
