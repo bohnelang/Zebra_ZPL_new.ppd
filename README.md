@@ -3,7 +3,7 @@ CUPS PPD file for Zebra label printer GX GK 420 430 and more with ZPL language i
 
 Zebra label printer prints charactes that are rastered to image that is print by label printer.
 
-https://opensource.apple.com/source/cups/cups-450/cups/filter/rastertolabel.c.auto.html
+[https://github.com/apple/cups/blob/master/filter/rastertolabel.c](https://github.com/apple/cups/blob/master/filter/rastertolabel.c)
 
 ```
 +------------+       +------------+       +---------------+       +---------------+
