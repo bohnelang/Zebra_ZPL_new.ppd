@@ -12,7 +12,7 @@ Zebra label printer prints charactes that are rastered to image that is print by
                                            rastertolabel.c
 ```
 
-The PPD file was improved and I did some bug fixes. Furthermore I did a translation to German language (and remove othe language). 
+The PPD file was improved and I did some bug fixes. Furthermore I did a translation to German language (and remove other language than English). 
 For our work this is ok. Feel free to use it, if you like.
 
 Tested with:
