@@ -1,0 +1,336 @@
+*PPD-Adobe:             "4.3"
+*FormatVersion:         "4.3"
+*FileVersion:           "1.1"
+*LanguageVersion:       English
+*LanguageEncoding:      ISOLatin1
+*PCFileName:            "ttp8200.ppd"
+*Manufacturer:          "Zebra"
+*Product:               "(TTP8200)"
+*cupsVersion:           1.1
+*cupsManualCopies:      True
+*cupsModelNumber:       8200
+*cupsFilter:            "application/vnd.cups-raster 10 rastertozebrakiosk"
+*ModelName:             "TTP8200 Thermal Kiosk Printer"
+*ShortNickName:         "TTP8200"
+*NickName:              "Zebra Kiosk Printer, TTP8200"
+*PSVersion:             "(3010.000) 550"
+*LanguageLevel:         "3"
+*ColorDevice:           False
+*DefaultColorSpace:     Gray
+*FileSystem:            False
+*Throughput:            "1"
+*LandscapeOrientation:  Plus90
+*VariablePaperSize:     True
+*TTRasterizer:          Type42
+
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 DPI: "<</HWResolution[203 203]>>setpagedevice"
+
+*DefaultBitsPerPixel: False
+*BitsPerPixel False/False: "<</cupsBitsPerColor 1/cupsColorOrder 0/cupsColorSpace 3>>setpagedevice"
+
+
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: Letter
+
+*PageSize X216MMY150MM/216mm * 150mm:            "<</PageSize[612 425]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize Letter/US Letter:			"<</PageSize[612 792]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize Legal/Legal:				"<</PageSize[612 1008]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize A4:					"<</PageSize[595 842]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+
+*PageRegion X216MMY150MM/216mm * 150mm:		"<</PageSize[612 425]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion A4/A4:                		"<</PageSize[595 842]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion Letter/Letter:        		"<</PageSize[612 792]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion Legal/Legal: 			"<</PageSize[612 1008]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: Letter
+
+*ImageableArea X216MMY150MM:         "11.0 0.0 603.5 425.0"
+*ImageableArea A4:                  "11.0 0.0 585.0 842"
+*ImageableArea Letter:              "11.0 53.8 602.0 792"
+*ImageableArea Legal:               "11.0 0.0 602.0 1008"
+
+*DefaultPaperDimension: Letter
+
+*PaperDimension X216MMY150MM:        "612 425"
+*PaperDimension A4:                 "595 842"
+*PaperDimension Letter:             "612 792"
+*PaperDimension Legal:              "612 1008"
+
+*MaxMediaWidth:  "612"
+*MaxMediaHeight: "6128"
+*HWMargins:      11 0 36 0
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width:        1 points 1 612
+*ParamCustomPageSize Height:       2 points 1 6128
+*ParamCustomPageSize WidthOffset:  3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation:  5 int 0 0
+
+*OpenGroup: TTPPrintOptions/TTP Print Options
+*OrderDependency: 2 AnySetup *PrintSpeed
+*OpenUI *PrintSpeed/Print Speed: PickOne
+*DefaultPrintSpeed: 17
+*PrintSpeed 1/1: ""
+*PrintSpeed 2/2: ""
+*PrintSpeed 3/3: ""
+*PrintSpeed 4/4: ""
+*PrintSpeed 5/5: ""
+*PrintSpeed 6/6: ""
+*PrintSpeed 7/7: ""
+*PrintSpeed 8/8: ""
+*PrintSpeed 9/9: ""
+*PrintSpeed 10/10: ""
+*PrintSpeed 11/11: ""
+*PrintSpeed 12/12: ""
+*PrintSpeed 13/13: ""
+*PrintSpeed 14/14: ""
+*PrintSpeed 15/15: ""
+*PrintSpeed 16/16: ""
+*PrintSpeed 17/17 (Default): ""
+*CloseUI: *PrintSpeed
+
+*OpenUI *BurnTime/Burn Time: PickOne
+*OrderDependency: 10 AnySetup *BurnTime
+*DefaultBurnTime: 9
+*BurnTime 0/0: ""
+*BurnTime 1/1: ""
+*BurnTime 2/2: ""
+*BurnTime 3/3: ""
+*BurnTime 4/4: ""
+*BurnTime 5/5: ""
+*BurnTime 6/6: ""
+*BurnTime 7/7: ""
+*BurnTime 8/8: ""
+*BurnTime 9/9 (Default): ""
+*BurnTime 10/10: ""
+*BurnTime 11/11: ""
+*BurnTime 12/12: ""
+*BurnTime 13/13: ""
+*BurnTime 14/14: ""
+*BurnTime 15/15: ""
+*CloseUI: *BurnTime
+
+*OpenUI *Reverse/Reverse Before Print (mm): PickOne
+*OrderDependency: 10 AnySetup *Reverse
+*DefaultReverse: 0
+*Reverse 0/0: ""
+*Reverse 1/1: ""
+*Reverse 2/2: ""
+*Reverse 3/3: ""
+*Reverse 4/4: ""
+*Reverse 5/5: ""
+*Reverse 6/6: ""
+*Reverse 7/7: ""
+*Reverse 8/8: ""
+*Reverse 9/9: ""
+*Reverse 10/10: ""
+*CloseUI: *Reverse
+
+*OpenUI *Eject/Eject Length: PickOne
+*OrderDependency: 10 AnySetup *Eject
+*DefaultEject: 30
+*Eject 0/0: ""
+*Eject 10/10: ""
+*Eject 20/20: ""
+*Eject 30/30: ""
+*Eject 40/40: ""
+*Eject 50/50: ""
+*Eject 60/60: ""
+*Eject 70/70: ""
+*Eject 80/80: ""
+*Eject 90/90: ""
+*Eject 100/100: ""
+*CloseUI: *Eject
+
+*OpenUI *PageMode/Page Mode: Boolean
+*OrderDependency: 10 AnySetup *PageMode
+*DefaultPageMode: 0Roll
+*PageMode 0Roll/Roll Mode (Variable Length): ""
+*PageMode 1Page/Page Mode (Fixed Length): ""
+*CloseUI: *PageMode
+
+*OpenUI *ClearPresenter/Clear Presenter After Print: Boolean
+*OrderDependency: 10 AnySetup *ClearPresenter
+*DefaultClearPresenter: 0
+*ClearPresenter 0/No: ""
+*ClearPresenter 1/Yes: ""
+*CloseUI: *ClearPresenter
+
+*OpenUI *LoopLength/Presenter Loop Length: PickOne
+*OrderDependency: 10 AnySetup *LoopLength
+*DefaultLoopLength: 15
+*LoopLength 0/0 - Loop Disabled:	""
+*LoopLength 1/1:	""
+*LoopLength 2/2:	""
+*LoopLength 3/3:	""
+*LoopLength 4/4:	""
+*LoopLength 5/5:	""
+*LoopLength 6/6:	""
+*LoopLength 7/7:	""
+*LoopLength 8/8:	""
+*LoopLength 9/9:	""
+*LoopLength 10/10:	""
+*LoopLength 11/11:	""
+*LoopLength 12/12:	""
+*LoopLength 13/13:	""
+*LoopLength 14/14:	""
+*LoopLength 15/15:	""
+*LoopLength 16/16:	""
+*LoopLength 17/17:	""
+*LoopLength 18/18:	""
+*LoopLength 19/19:	""
+*LoopLength 20/20:	""
+*CloseUI: *LoopLength
+
+*OpenUI *RetractOptions/Retract Behavior: PickOne
+*OrderDependency: 10 AnySetup *RetractOptions
+*DefaultRetractOptions: 3
+*RetractOptions 0/Eject on new page|Timer Disabled: ""
+*RetractOptions 1/Eject|Retract 10 s: ""
+*RetractOptions 2/Eject|Retract 20 s: ""
+*RetractOptions 3/Eject|Retract 30 s: ""
+*RetractOptions 4/Eject|Retract 60 s: ""
+*RetractOptions 5/Eject|Retract 120s: ""
+*RetractOptions 6/Retract on new page|Timer Disabled: ""
+*RetractOptions 7/Retract|Retract 10 s: ""
+*RetractOptions 8/Retract|Retract 20 s: ""
+*RetractOptions 9/Retract|Retract 30 s: ""
+*RetractOptions 10/Retract|Retract 60 s: ""
+*RetractOptions 11/Retract|Retract 120s: ""
+*CloseUI: *RetractOptions
+
+*% OpenUI *TopSearch/Top Search: PickOne
+*% DefaultTopSearch: 0Disable
+*% TopSearch 0Disable/Disable: ""
+*% TopSearch 1Enable/Enable: ""
+*% CloseUI: *TopSearch
+
+*CloseGroup: TTPPrintOptions
+
+*OpenGroup: CutGroup/Cut Options
+*OpenUI *PageCutType/Cut Mode: Boolean
+*OrderDependency: 10 AnySetup *PageCutType
+*DefaultPageCutType: 1CutPerPage
+*PageCutType 0CutPerDoc/Cut Per Document: ""
+*PageCutType 1CutPerPage/Cut Per Page: ""
+*CloseUI: *PageCutType
+
+*CloseGroup: CutGroup
+
+*OpenGroup: BMGroup/Black Mark Settings
+*OpenUI *BMMin/Minimum BM Length: PickOne
+*OrderDependency: 10 AnySetup *BMMin
+*DefaultBMMin: 3
+*BMMin 1/1mm: ""
+*BMMin 2/2mm: ""
+*BMMin 3/3mm: ""
+*BMMin 4/4mm: ""
+*BMMin 5/5mm: ""
+*BMMin 6/6mm: ""
+*BMMin 7/7mm: ""
+*BMMin 8/8mm: ""
+*BMMin 9/9mm: ""
+*BMMin 10/10mm: ""
+*CloseUI: *BMMin
+
+*OpenUI *BMMax/Maximum (actual) BM Length: PickOne
+*OrderDependency: 10 AnySetup *BMMax
+*DefaultBMMax: 16
+*BMMax 1/1mm: ""
+*BMMax 2/2mm: ""
+*BMMax 3/3mm: ""
+*BMMax 4/4mm: ""
+*BMMax 5/5mm: ""
+*BMMax 6/6mm: ""
+*BMMax 7/7mm: ""
+*BMMax 8/8mm: ""
+*BMMax 9/9mm: ""
+*BMMax 10/10mm: ""
+*BMMax 11/11mm: ""
+*BMMax 12/12mm: ""
+*BMMax 13/13mm: ""
+*BMMax 14/14mm: ""
+*BMMax 15/15mm: ""
+*BMMax 16/16mm: ""
+*BMMax 17/17mm: ""
+*BMMax 18/18mm: ""
+*BMMax 19/19mm: ""
+*BMMax 20/20mm: ""
+*BMMax 21/21mm: ""
+*BMMax 22/22mm: ""
+*BMMax 23/23mm: ""
+*BMMax 24/24mm: ""
+*BMMax 25/25mm: ""
+*CloseUI: *BMMax
+
+*OpenUI *BMCutPos/BM Cut Position: PickOne
+*OrderDependency: 10 AnySetup *BMCutPos
+*DefaultBMCutPos: 25
+*BMCutPos 0/0mm: ""
+*BMCutPos 1/1mm: ""
+*BMCutPos 2/2mm: ""
+*BMCutPos 3/3mm: ""
+*BMCutPos 4/4mm: ""
+*BMCutPos 5/5mm: ""
+*BMCutPos 6/6mm: ""
+*BMCutPos 7/7mm: ""
+*BMCutPos 8/8mm: ""
+*BMCutPos 9/9mm: ""
+*BMCutPos 10/10mm: ""
+*BMCutPos 11/11mm: ""
+*BMCutPos 12/12mm: ""
+*BMCutPos 13/13mm: ""
+*BMCutPos 14/14mm: ""
+*BMCutPos 15/15mm: ""
+*BMCutPos 16/16mm: ""
+*BMCutPos 17/17mm: ""
+*BMCutPos 18/18mm: ""
+*BMCutPos 19/19mm: ""
+*BMCutPos 20/20mm: ""
+*BMCutPos 21/21mm: ""
+*BMCutPos 22/22mm: ""
+*BMCutPos 23/23mm: ""
+*BMCutPos 24/24mm: ""
+*BMCutPos 25/25mm: ""
+*BMCutPos 26/26mm: ""
+*BMCutPos 27/27mm: ""
+*BMCutPos 28/28mm: ""
+*BMCutPos 29/29mm: ""
+*BMCutPos 30/30mm: ""
+*BMCutPos 31/31mm: ""
+*BMCutPos 32/32mm: ""
+*BMCutPos 33/33mm: ""
+*BMCutPos 34/34mm: ""
+*BMCutPos 35/35mm: ""
+*BMCutPos 36/36mm: ""
+*BMCutPos 37/37mm: ""
+*BMCutPos 38/38mm: ""
+*BMCutPos 39/39mm: ""
+*BMCutPos 40/40mm: ""
+*BMCutPos 41/41mm: ""
+*BMCutPos 42/42mm: ""
+*BMCutPos 43/43mm: ""
+*BMCutPos 44/44mm: ""
+*BMCutPos 45/45mm: ""
+*BMCutPos 46/46mm: ""
+*BMCutPos 47/47mm: ""
+*BMCutPos 48/48mm: ""
+*BMCutPos 49/49mm: ""
+*BMCutPos 50/50mm: ""
+*CloseUI: *BMCutPos
+
+*CloseGroup BMGroup
+
+*%ttp8200.ppd v2016.0.9
+*% End
+

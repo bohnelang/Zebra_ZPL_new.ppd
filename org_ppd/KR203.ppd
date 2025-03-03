@@ -1,0 +1,308 @@
+*PPD-Adobe:             "4.3"
+*FormatVersion:         "4.3"
+*FileVersion:           "1.1"
+*LanguageVersion:       English
+*LanguageEncoding:      ISOLatin1
+*PCFileName:            "KR203.ppd"
+*Manufacturer:          "Zebra"
+*Product:               "(KR203)"
+*cupsVersion:           1.1
+*cupsManualCopies:      True
+*cupsModelNumber:       203
+*cupsFilter:            "application/vnd.cups-raster 10 rastertozebrakiosk"
+*ModelName:             "KR203 Thermal Kiosk Printer"
+*ShortNickName:         "KR203"
+*NickName:              "Zebra Kiosk Printer, KR203"
+*PSVersion:             "(3010.000) 550"
+*LanguageLevel:         "3"
+*ColorDevice:           False
+*DefaultColorSpace:     Gray
+*FileSystem:            False
+*Throughput:            "1"
+*LandscapeOrientation:  Plus90
+*VariablePaperSize:     True
+*TTRasterizer:          Type42
+
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 DPI: "<</HWResolution[203 203]>>setpagedevice"
+
+*DefaultBitsPerPixel: False
+*BitsPerPixel False/False: "<</cupsBitsPerColor 1/cupsColorOrder 0/cupsColorSpace 3>>setpagedevice"
+
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: p800x400
+*PageSize p800x150/80mm x 150mm:	"<</PageSize[226 425]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize p800x250/80mm x 250mm:	"<</PageSize[226 709]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize p800x400/80mm x 400mm:	"<</PageSize[226 1134]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize p825x127/82.5mm x 127mm:	"<</PageSize[233 360]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize p825x250/82.5mm x 250mm:	"<</PageSize[233 709]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize p825x400/82.5mm x 400mm: 	"<</PageSize[233 1134]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+
+*PageSize p600x400/60mm x 400mm:	"<</PageSize[169 1134]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize p580x400/58mm x 400mm:	"<</PageSize[164 1134]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize p600x400/60mm x 150mm:	"<</PageSize[169 425]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageSize p580x400/58mm x 150mm:	"<</PageSize[164 425]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+
+
+
+
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion/Page Region: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: p800x400
+
+*PageRegion p800x150/80mm x 150mm:	"<</PageSize[226 425]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion p800x250/80mm x 250mm:	"<</PageSize[226 709]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion p800x400/80mm x 400mm:	"<</PageSize[226 1134]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion p825x127/82.5mm x 127mm:	"<</PageSize[233 360]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion p825x250/82.5mm x 250mm:	"<</PageSize[233 709]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion p825x400/82.5mm x 400mm: 	"<</PageSize[233 1134]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+
+*PageRegion p600x400/60mm x 400mm:	"<</PageSize[169 1134]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion p580x400/58mm x 400mm:	"<</PageSize[164 1134]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion p600x400/60mm x 150mm:	"<</PageSize[169 425]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*PageRegion p580x400/58mm x 150mm:	"<</PageSize[164 425]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+
+
+
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: p800x400
+
+*ImageableArea p825x400:	"11.0 0.0 223.0 1134.0"
+*ImageableArea p825x250:	"11.0 0.0 223.0 709.0"
+*ImageableArea p825x127:	"11.0 0.0 223.0 360.0"
+*ImageableArea p800x400:	"11.0 0.0 215.0 1134.0"
+*ImageableArea p800x250:	"11.0 0.0 215.0 709.0"
+*ImageableArea p800x150:	"11.0 0.0 215.0 425.0"
+
+*ImageableArea p600x400:	"11.0 0.0 159.0 1134.0"
+*ImageableArea p580x400:	"11.0 0.0 153.0 1134.0"
+*ImageableArea p600x150:	"11.0 0.0 159.0 425.0"
+*ImageableArea p580x150:	"11.0 0.0 153.0 425.0"
+
+
+
+*DefaultPaperDimension: p800x400
+
+*PaperDimension p825x400:	"233 1134"
+*PaperDimension p825x250:	"233 709"
+*PaperDimension p825x127:	"233 360"
+*PaperDimension p800x400:	"226 1134"
+*PaperDimension p800x250:	"226 709"
+*PaperDimension p800x150:	"226 425"
+*PaperDimension p600x400:	"169 1134"
+*PaperDimension p580x400:	"164 1134"
+*PaperDimension p600x150:	"169 425"
+*PaperDimension p580x150:	"164 425"
+
+*MaxMediaWidth:  "233"
+*MaxMediaHeight: "6128"
+*HWMargins:      11 0 36 0
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/HWResolution[203 203]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width:        1 points 72 233
+*ParamCustomPageSize Height:       2 points 72 6128
+*ParamCustomPageSize WidthOffset:  3 points 4 229
+*ParamCustomPageSize HeightOffset: 4 points 9 6119
+*ParamCustomPageSize Orientation:  5 int 0 0
+
+*OpenGroup: TTPPrintOptions/KR203 Print Options
+*OrderDependency: 10 AnySetup *PrintSpeed
+*OpenUI *PrintSpeed/Print Speed: PickOne
+*DefaultPrintSpeed: 16
+*PrintSpeed 1/75 mm/s: ""
+*PrintSpeed 2/80 mm/s: ""
+*PrintSpeed 3/85 mm/s: ""
+*PrintSpeed 4/90 mm/s: ""
+*PrintSpeed 5/95 mm/s: ""
+*PrintSpeed 6/100 mm/s: ""
+*PrintSpeed 7/105 mm/s: ""
+*PrintSpeed 8/110 mm/s: ""
+*PrintSpeed 9/115 mm/s: ""
+*PrintSpeed 10/120 mm/s: ""
+*PrintSpeed 11/125 mm/s: ""
+*PrintSpeed 12/130 mm/s: ""
+*PrintSpeed 13/135 mm/s: ""
+*PrintSpeed 14/140 mm/s: ""
+*PrintSpeed 15/145 mm/s: ""
+*PrintSpeed 16/152 mm/s (Default): ""
+*CloseUI: *PrintSpeed
+
+*OpenUI *Darkness/Darkness: PickOne
+*OrderDependency: 10 AnySetup *Darkness
+*DefaultDarkness: 20
+*Darkness 0/0: ""
+*Darkness 1/1: ""
+*Darkness 2/2: ""
+*Darkness 3/3: ""
+*Darkness 4/4: ""
+*Darkness 5/5: ""
+*Darkness 6/6: ""
+*Darkness 7/7: ""
+*Darkness 8/8: ""
+*Darkness 9/9: ""
+*Darkness 10/10: ""
+*Darkness 11/11: ""
+*Darkness 12/12: ""
+*Darkness 13/13: ""
+*Darkness 14/14: ""
+*Darkness 15/15: ""
+*Darkness 16/16: ""
+*Darkness 17/17: ""
+*Darkness 18/18: ""
+*Darkness 19/19: ""
+*Darkness 20/20 (Default): ""
+*Darkness 21/21: ""
+*Darkness 22/22: ""
+*Darkness 23/23: ""
+*Darkness 24/24: ""
+*Darkness 25/25: ""
+*Darkness 26/26: ""
+*Darkness 27/27: ""
+*Darkness 28/28: ""
+*Darkness 29/29: ""
+*Darkness 30/30: ""
+*CloseUI: *Darkness
+
+*OpenUI *Reverse/Reverse Before Print (mm): PickOne
+*OrderDependency: 10 AnySetup *Reverse
+*DefaultReverse: 0
+*Reverse 0/0: ""
+*Reverse 1/1 mm: ""
+*Reverse 2/2 mm: ""
+*Reverse 3/3 mm: ""
+*Reverse 4/4 mm: ""
+*Reverse 5/5 mm: ""
+*Reverse 6/6 mm: ""
+*Reverse 7/7 mm: ""
+*CloseUI: *Reverse
+
+*OpenUI *Eject/Eject Length: PickOne
+*OrderDependency: 10 AnySetup *Eject
+*DefaultEject: 50
+*Eject 20/20 mm: ""
+*Eject 30/30 mm: ""
+*Eject 40/40 mm: ""
+*Eject 50/50 mm: ""
+*Eject 60/60 mm: ""
+*Eject 70/70 mm: ""
+*Eject 80/80 mm: ""
+*Eject 90/90 mm: ""
+*Eject 100/100 mm: ""
+*Eject 110/110 mm: ""
+*Eject 120/120 mm: ""
+*Eject 130/130 mm: ""
+*Eject 140/140 mm: ""
+*Eject 150/150 mm: ""
+*Eject 160/160 mm: ""
+*Eject 170/170 mm: ""
+*Eject 180/180 mm: ""
+*Eject 190/190 mm: ""
+*Eject 200/200 mm: ""
+*Eject 210/210 mm: ""
+*Eject 220/220 mm: ""
+*Eject 230/230 mm: ""
+*Eject 240/240 mm: ""
+*Eject 250/250 mm: ""
+*CloseUI: *Eject
+
+
+*OpenUI *PageMode/Media Tracking: PickOne
+*OrderDependency: 10 AnySetup *PageMode
+*DefaultPageMode: 0Roll
+*PageMode 0Roll/Variable Length: ""
+*PageMode 1Page/Continuous: ""
+*PageMode 2Mark/Mark Sensing: ""
+*CloseUI: *PageMode
+
+*OpenUI *ClearPresenter/Clear Presenter After Print: PickOne
+*OrderDependency: 10 AnySetup *ClearPresenter
+*DefaultClearPresenter: 0No
+*ClearPresenter 0No/No: ""
+*ClearPresenter 1Yes/Yes: ""
+*CloseUI: *ClearPresenter
+
+*OpenUI *LoopLength/Presenter Loop Length: PickOne
+*OrderDependency: 10 AnySetup *LoopLength
+*DefaultLoopLength: 8
+*LoopLength 0/0 - Loop Disabled:	""
+*LoopLength 1/80 mm:	""
+*LoopLength 2/100 mm:	""
+*LoopLength 3/150 mm:	""
+*LoopLength 4/200 mm:	""
+*LoopLength 5/250 mm:	""
+*LoopLength 6/300 mm:	""
+*LoopLength 7/350 mm:	""
+*LoopLength 8/400 mm:	""
+*LoopLength 9/450 mm:	""
+*LoopLength 10/500 mm:	""
+*LoopLength 11/550 mm:	""
+*LoopLength 12/600 mm:	""
+*CloseUI: *LoopLength
+
+*OpenUI *EjectOptions/Presenter Timeout: PickOne
+*OrderDependency: 10 AnySetup *EjectOptions
+*DefaultEjectOptions: 0
+*EjectOptions 0/Timer Disabled: ""
+*EjectOptions 1/Eject 10 s: ""
+*EjectOptions 2/Eject 20 s: ""
+*EjectOptions 3/Eject 30 s: ""
+*EjectOptions 4/Eject 40 s: ""
+*EjectOptions 5/Eject 50 s: ""
+*EjectOptions 6/Eject 60 s: ""
+*EjectOptions 7/Eject 70 s: ""
+*EjectOptions 8/Eject 80 s: ""
+*EjectOptions 9/Eject 90 s: ""
+*EjectOptions 10/Eject 100 s: ""
+*EjectOptions 11/Eject 110 s: ""
+*EjectOptions 12/Eject 120 s: ""
+*EjectOptions 13/Eject 130 s: ""
+*EjectOptions 14/Eject 140 s: ""
+*EjectOptions 15/Eject 150 s: ""
+*EjectOptions 16/Eject 160 s: ""
+*EjectOptions 17/Eject 170 s: ""
+*EjectOptions 18/Eject 180 s: ""
+*EjectOptions 19/Eject 190 s: ""
+*EjectOptions 20/Eject 200 s: ""
+*EjectOptions 21/Eject 210 s: ""
+*EjectOptions 22/Eject 220 s: ""
+*EjectOptions 23/Eject 230 s: ""
+*EjectOptions 24/Eject 240 s: ""
+*EjectOptions 25/Eject 250 s: ""
+*EjectOptions 26/Eject 260 s: ""
+*EjectOptions 27/Eject 270 s: ""
+*EjectOptions 28/Eject 280 s: ""
+*EjectOptions 29/Eject 290 s: ""
+*EjectOptions 30/Eject 300 s: ""
+*CloseUI: *EjectOptions
+
+*CloseGroup: TTPPrintOptions
+
+*OpenGroup: CutGroup/Cut Options
+*OpenUI *PageCutType/Cut Mode: PickOne
+*OrderDependency: 10 AnySetup *PageCutType
+*DefaultPageCutType: 1CutPerPage
+*PageCutType 0CutPerDoc/Cut Per Document: ""
+*PageCutType 1CutPerPage/Cut Per Page: ""
+*CloseUI: *PageCutType
+
+*OpenUI *PartialCut/Partial Cut: PickOne
+*OrderDependency: 10 AnySetup *PartialCut
+*DefaultPartialCut: 0
+*PartialCut 0/Off: ""
+*PartialCut 10/10 mm: ""
+*PartialCut 20/20 mm: ""
+*PartialCut 30/30 mm: ""
+*PartialCut 40/40 mm: ""
+*PartialCut 50/50 mm: ""
+*PartialCut 60/60 mm: ""
+*CloseUI: *PartialCut
+
+*CloseGroup: CutGroup
+
+
+
+*%KR203.ppd v2010.0.2
+*% End
